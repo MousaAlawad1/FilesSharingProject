@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1c22"/>
+      <stop offset="100%" stop-color="#0c0e12"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#f0c878"/>
+      <stop offset="60%" stop-color="#c9963f"/>
+      <stop offset="100%" stop-color="#8c6a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#3a2f1c" stroke-opacity="0.8"/>
+  <!-- Stylised "S" monogram -->
+  <path
+    d="M44 21.5c-2.6-3.6-7-5.6-12-5.6-7.2 0-12 3.4-12 8.5 0 5.1 4.1 7.2 11.5 8.7 6.5 1.3 8.5 2.4 8.5 4.6 0 2.4-2.5 4-7 4-4.6 0-8-1.8-10.5-4.7l-3 4.3c3 3.6 7.7 5.6 13.4 5.6 7.8 0 12.7-3.6 12.7-9 0-5.4-4.3-7.6-12-9.1-6-1.2-8-2.2-8-4.3 0-2.2 2.5-3.6 6.5-3.6 3.8 0 6.7 1.4 8.7 4.1z"
+    fill="url(#brass)"
+  />
+</svg>
